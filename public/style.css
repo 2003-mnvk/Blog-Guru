@@ -39,7 +39,7 @@ nav li {
 }
 
 nav h1 {
-  font-size: 3em;
+  font-size: 2rem;
   color: white;  /* Ensuring nav heading is white */
 }
 
@@ -74,13 +74,13 @@ h3 {
   display: block;
   margin: 40px 0;
   padding-left: 30px;
-  border-left: 6px solid crimson;
+  border-left: 6px solid whitesmoke;
   transition: color 0.3s, border-color 0.3s;
 }
 
 .blogs a:hover h3 {
   color: crimson;
-  border-left: 6px solid white;  /* Changed to white for better contrast */
+  border-left: 6px solid whitesmoke;  /* Changed to white for better contrast */
 }
 
 /* details styles */
@@ -95,7 +95,7 @@ h3 {
   border-radius: 50%;
   padding: 8px;
   background-color: crimson;
-  color: white;
+  color: red;
   transition: box-shadow 0.3s;
 }
 
@@ -116,7 +116,7 @@ h3 {
   width: 100%;
   margin: 10px 0;
   padding: 8px;
-  background-color: #444;  /* Dark grey background for inputs */
+  background-color: black;  /* Dark grey background for inputs */
   color: white;  /* White text color for inputs */
 }
 
@@ -131,7 +131,8 @@ textarea {
 
 .create-blog button {
   margin-top: 20px;
-  background: crimson;
+  background: red;
+  align-items: center;
   color: white;
   padding: 6px;
   border: 0;
